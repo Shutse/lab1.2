@@ -10,3 +10,4 @@ begin
   puts Calculator.new(number1, number2, operation).answer
 rescue ZeroDivisionError => error
   puts "#{error.message}"
+end
